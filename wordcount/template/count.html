@@ -1,0 +1,14 @@
+<h1>counted</h1>
+<hr />
+<hr/>
+back to homepage<a href="{% url 'homepage' %}">abck</a>
+<marquee style="background-color:red;
+                 height:40;">hi bhai log!!!</marquee>
+<h2>your text is</h2>
+{{fulltext}}
+<h2>no of counts is</h2>
+{{key}}<br/>
+no repeat in paragraph<br/>
+{% for key,value in dict%}
+{{key}}={{value}}<br/>
+{%endfor%}
